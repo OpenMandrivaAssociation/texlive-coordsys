@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/coordsys
+# catalog-date 2007-02-20 10:49:06 +0100
+# catalog-license lppl
+# catalog-version 1.4
 Name:		texlive-coordsys
 Version:	1.4
 Release:	1
@@ -49,6 +55,7 @@ drawing capabilities.
 #- source
 %doc %{_texmfdistdir}/source/latex/coordsys/coordsys.dtx
 %doc %{_texmfdistdir}/source/latex/coordsys/coordsys.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ drawing capabilities.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
