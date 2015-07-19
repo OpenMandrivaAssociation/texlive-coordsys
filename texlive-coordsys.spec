@@ -6,7 +6,7 @@
 # catalog-version 1.4
 Name:		texlive-coordsys
 Version:	1.4
-Release:	9
+Release:	10
 Summary:	Draw cartesian coordinate systems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coordsys
