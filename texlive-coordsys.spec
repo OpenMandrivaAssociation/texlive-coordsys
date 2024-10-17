@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Draw cartesian coordinate systems
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coordsys
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/coordsys
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coordsys.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coordsys.doc.r%{version}.tar.xz
